@@ -249,7 +249,7 @@ module.exports = ""
 /***/ "./src/app/product/product.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  product works!\n  <table>\n    <tr>\n      <th>Name</th>\n      <th>Code</th>\n      <th>Price</th>\n      <th>Rating</th>\n      <th>Description</th>\n    </tr>\n    <tr *ngFor=\"let product of products\">\n      <td>{{product.Name}}</td>\n      <td>{{product.Code}}</td>\n      <td>{{product.Price}}</td>\n      <td>{{product.Rating}}</td>\n      <td>{{product.Description}}</td>\n    </tr>\n  </table>\n</p>\n"
+module.exports = "  product works!\n  <table>\n    <tr>\n      <th>Name</th>\n      <th>Code</th>\n      <th>Price</th>\n      <th>Rating</th>\n      <th>Description</th>\n    </tr>\n    <tr *ngFor=\"let product of products\">\n      <td>{{product.productName}}</td>\n      <td>{{product.productCode}}</td>\n      <td>{{product.price}}</td>\n      <td>{{product.rating}}</td>\n      <td>{{product.productDescription}}</td>\n    </tr>\n  </table>\n"
 
 /***/ }),
 
@@ -287,7 +287,7 @@ var ProductComponent = /** @class */ (function () {
                 "productId": 2,
                 "productName": "Hammer",
                 "productCode": "tbc-043",
-                "productDescription": "15 gallon capacity rolling garden cart",
+                "productDescription": "5 kg hammer",
                 "manufactireDate": "May 20, 2018",
                 "price": 8.90,
                 "rating": 4.8,

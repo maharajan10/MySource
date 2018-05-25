@@ -27,7 +27,7 @@ export class ProductComponent implements OnInit {
       "productId" : 2,
       "productName" : "Hammer",
       "productCode" : "tbc-043",
-      "productDescription" : "15 gallon capacity rolling garden cart",
+      "productDescription" : "5 kg hammer",
       "manufactireDate" : "May 20, 2018",
       "price" : 8.90,
       "rating" : 4.8,
